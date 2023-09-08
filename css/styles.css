@@ -1,0 +1,28 @@
+nav {
+  color: #2e2f42;
+}
+nav:active {
+  color: #404bbf;
+}
+
+body {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+}
+
+.solution {
+  color: #ffffff;
+  background-color: #2e2f42;
+  font-family: Roboto;
+  letter-spacing: 1.12px;
+}
+
+button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+button:hover,
+button:focus {
+  background-color: #404bbf;
+}
