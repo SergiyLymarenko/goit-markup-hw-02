@@ -1,19 +1,27 @@
-nav > a,
-nav ul li a,
-address ul li a,
-footer > a {
-  color: #2e2f42;
-  text-decoration: none;
-}
-nav > a:hover,
-nav ul li a:hover,
-address ul li a:hover,
-footer > a:hover {
-  color: #404bbf;
+a {
+  font-family: Raleway;
+  font-style: normal;
 }
 
-.navigation-list .list {
-  text-decoration: none;
+a:hover {
+  font-family: Raleway;
+  color: #2e2f42;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navigation {
+  font-family: Raleway;
+}
+
+.title {
+  color: #2e2f42;
+}
+
+.navigation > ul:hover {
+  font-family: "Roboto", sans-serif;
 }
 
 body {
