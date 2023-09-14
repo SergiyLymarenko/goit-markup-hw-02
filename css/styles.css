@@ -55,25 +55,25 @@ a:focus {
   font-family: "Roboto", sans-serif;
 }
 
-address {
+.contacts {
   font-style: normal;
 }
 
-.adress-item {
+.address-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.adress-item :hover {
+.address-item :hover {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #404bbf;
 }
 
-.adress-item :focus {
+.address-item :focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -114,16 +114,19 @@ button:focus {
 
 /* Section 1: Features */
 
+.features {
+  background-color: #2e2f42;
+}
+
 .features-list {
   color: #2e2f42;
 }
 
 .fetures-title {
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px; /* 120% */
-  letter-spacing: 0.4px;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .features-text {
@@ -131,6 +134,21 @@ button:focus {
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+}
+
+/* Section 2: Our team */
+
+.team-title {
+}
+
+.team-list {
+}
+
+.team-name {
+}
+
+.text-item-team {
+  color: #434455;
 }
 
 /* Footer */
