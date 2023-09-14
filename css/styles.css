@@ -91,28 +91,34 @@ body {
   letter-spacing: 0.32px;
 }
 
-/* Main title */
+/* Section1: Main title */
 
-.title-main {
+.baner {
   color: #ffffff;
   background-color: #2e2f42;
-  font-family: Roboto;
-  letter-spacing: 1.12px;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
-button {
+.baner-button {
   color: #ffffff;
   background-color: #4d5ae5;
-  /* font-size: 15px;
-  font-weight: 500; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
-button:hover,
-button:focus {
+.baner-button:hover,
+.baner-button:focus {
   background-color: #404bbf;
 }
 
-/* Section 1: Features */
+/* Section 2: Features */
 
 .features {
   background-color: #2e2f42;
@@ -136,7 +142,7 @@ button:focus {
   letter-spacing: 0.32px;
 }
 
-/* Section 2: Our team */
+/* Section 3: Our team */
 
 .team-title {
 }
