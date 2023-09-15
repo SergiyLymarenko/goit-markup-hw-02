@@ -27,14 +27,11 @@
 }
 
 a {
-  font-family: Raleway;
-  font-style: normal;
   color: #2e2f42;
   text-decoration: none;
 }
 
 a:hover {
-  font-family: Raleway;
   color: #404bbf;
 }
 
@@ -48,10 +45,6 @@ a:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style-type: none;
-}
-
-.navigation {
-  font-family: Raleway;
 }
 
 .title {
@@ -146,7 +139,6 @@ body {
 
 .features-text {
   color: #434455;
-  font-family: Roboto;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -169,9 +161,6 @@ body {
 
 .team-item {
   background-color: #ffffff;
-}
-
-.team-img-item {
 }
 
 .team-name {
@@ -255,7 +244,6 @@ body {
 
 .footer-text {
   color: #f4f4fd;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
