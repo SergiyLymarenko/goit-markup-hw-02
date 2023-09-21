@@ -26,33 +26,34 @@
   color: #2e2f42;
 }
 
-a {
-  color: #2e2f42;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #404bbf;
-}
-
-a:focus {
-  color: #404bbf;
-}
-
 .navigation-list {
-  font-weight: 500;
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style-type: none;
+  text-decoration: none;
+}
+
+.navigation-list:hover,
+.navigation-list:focus {
+  color: #404bbf;
 }
 
 .title {
   color: #2e2f42;
 }
 
-.navigation > ul:hover {
+.navigation-item {
+  color: #2e2f42;
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  list-style-type: none;
 }
 
 .contacts {
@@ -64,16 +65,12 @@ a:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  list-style-type: none;
+  text-decoration: none;
 }
 
-.address-item :hover {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #404bbf;
-}
-
-.address-item :focus {
+.address-item:hover,
+.address-item:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -230,6 +227,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .footer-logo-studio {
@@ -240,10 +238,12 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .footer-text {
   color: #f4f4fd;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
