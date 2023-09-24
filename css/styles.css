@@ -72,7 +72,7 @@ body {
 
 .header-container {
   display: flex;
-  /* padding: 24px 0; */
+  padding: 24px 0;
 }
 
 .navigation {
@@ -99,7 +99,7 @@ body {
 
 .nav-list {
   gap: 40px;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .navigation-link {
@@ -155,7 +155,7 @@ body {
 }
 
 .contacts-item {
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 /* Section1: Main title */
