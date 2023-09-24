@@ -72,6 +72,8 @@ body {
 
 .header-container {
   display: flex;
+  padding: 24px 0;
+  gap: 40px;
 }
 
 .navigation {
@@ -96,10 +98,10 @@ body {
   color: #2e2f42;
 }
 
-.nav-list {
+/* .nav-list {
   gap: 40px;
   padding: 24px 0;
-}
+} */
 
 .navigation-link {
   color: #2e2f42;
@@ -129,12 +131,12 @@ body {
 
 .contacts {
   font-style: normal;
-  gap: 40px;
+  /* gap: 40px; */
 }
 
 .contacts-list {
   display: flex;
-  gap: 40px;
+  /* gap: 40px; */
 
   list-style-type: none;
   font-size: 16px;
@@ -154,7 +156,7 @@ body {
 }
 
 .contacts-item {
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 /* Section1: Main title */
