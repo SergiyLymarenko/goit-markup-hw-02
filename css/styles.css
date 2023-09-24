@@ -67,7 +67,6 @@ body {
 
 .header {
   margin: 0 auto;
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -119,6 +118,8 @@ body {
 }
 
 .navigation-item {
+  padding: 24px 0;
+
   color: #2e2f42;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
