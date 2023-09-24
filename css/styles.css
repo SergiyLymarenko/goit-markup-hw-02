@@ -67,12 +67,12 @@ body {
 
 .header {
   margin: 0 auto;
+  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
-  padding: 24px 0;
 }
 
 .navigation {
